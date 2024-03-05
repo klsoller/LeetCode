@@ -6,3 +6,4 @@
 {}
 {"level": "INFO", "message": "bug", "timestamp": "2024-03-05T15:57:40.876993+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
 {"level": "INFO", "message": "bug", "timestamp": "2024-03-05T15:57:57.417176+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T19:48:58.723980+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
