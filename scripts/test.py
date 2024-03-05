@@ -20,14 +20,27 @@ import sys
 
 # import logging
 # from logs import setup_logging
-from logs import Logger as logger
+# from logs import Logger as logger
+from logs import logger
+from decorators import file_input_objects
 
 
 import logs
 
-x = 5
-logger.info("bug")
 
-
+@file_input_objects.log_arguments
 def main():
-    pass
+    x = 5
+    try:
+        1 / 0
+    except Exception:
+        # logger.critical("critical message")
+        # logger.error("error message")
+        # logger.warning("warning message")
+        logger.debug("debug message")
+        # logger.debug(msg="debug message", extra={"x": "hello"})
+        logger.info("info message")
+
+
+if __name__ == "__main__":
+    main()

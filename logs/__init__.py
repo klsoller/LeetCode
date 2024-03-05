@@ -9,7 +9,7 @@ from .logging_config import setup_logging
 setup_logging()
 from .logging_config import logger
 
-Logger = logger
+# Logger = logger
 
 
 # from .logging_config import logger
