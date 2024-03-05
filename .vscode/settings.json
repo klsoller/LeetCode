@@ -1,0 +1,20 @@
+{
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.pythonPath": "C:/Users/kaleb/source/repos/klsoller/LeetCode/.LeetCode_venv/Scripts/python.exe",
+    "python.defaultInterpreterPath": "C:/Users/kaleb/source/repos/klsoller/LeetCode/.LeetCode_venv/Scripts/python.exe",
+    "python.autoComplete.extraPaths": [
+        "C:/Users/kaleb/source/repos/klsoller/${workspaceFolder}",
+        "C:/Users/kaleb/source/repos/klsoller/${workspaceFolder}/logs"
+    ],
+    "python.analysis.extraPaths": [
+        "C:/Users/kaleb/source/repos/klsoller/${workspaceFolder}",
+        "C:/Users/kaleb/source/repos/klsoller/${workspaceFolder}/logs"
+        ],
+    "python.terminal.cwd": "${workspaceFolder}",
+    "python.envFile": "${workspaceFolder}/.env"
+    
+}

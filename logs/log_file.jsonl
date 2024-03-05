@@ -1,0 +1,8 @@
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T14:11:57.313286+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T14:57:41.213778+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T14:59:14.150372+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T15:01:52.634662+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T15:02:18.741461+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
+{}
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T15:57:40.876993+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
+{"level": "INFO", "message": "bug", "timestamp": "2024-03-05T15:57:57.417176+00:00", "logger": "app", "module": "test", "function": "<module>", "line": 35, "thread_name": "MainThread"}
