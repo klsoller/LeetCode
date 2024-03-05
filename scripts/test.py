@@ -22,15 +22,9 @@ import sys
 # from logs import setup_logging
 from logs import Logger as logger
 
-# from logs import mylogger
 
 import logs
 
-# from logs import logger
-
-# from logs import logger
-
-# setup_logging()
 x = 5
 logger.info("bug")
 
