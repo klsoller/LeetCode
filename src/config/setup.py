@@ -3,12 +3,12 @@ import os
 import sys
 
 
-def add_root_to_path():
+def add_root_to_path() -> None:
     root_folder = os.path.abspath(os.path.dirname(__file__))
     sys.path.append(root_folder)
 
 
-def set_pythonpath():
+def set_pythonpath() -> None:
     root_folder = os.path.abspath(os.path.dirname(__file__))
     python_path = os.path.join(root_folder, "..", "..")
     os.environ["PYTHONPATH"] = python_path
