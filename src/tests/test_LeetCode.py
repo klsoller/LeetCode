@@ -14,23 +14,33 @@ class Test_ch20:
 
     def test_case1(self) -> None:
         test_input = "()"
-        # print(f"{test_input=}")
+        print(f"{test_input=}")
         assert ch20.Solution().isValid(test_input) == True
 
     def test_case2(self) -> None:
         test_input = "()[]{}"
-        print(f"{test_input=}\n\n\n")
+        print(f"{test_input=}")
         assert ch20.Solution().isValid(test_input) == True
 
     def test_case3(self) -> None:
         test_input = "(]"
-        # print(f"{test_input=}")
+        print(f"{test_input=}")
         assert ch20.Solution().isValid(test_input) == False
 
     def test_case4(self) -> None:
-        test_input = "([{}])"
-        # print(f"{test_input=}")
+        test_input = "([{}])()"
+        print(f"{test_input=}")
         assert ch20.Solution().isValid(test_input) == True
+
+    def test_case5(self) -> None:
+        test_input = "(("
+        print(f"{test_input=}")
+        assert ch20.Solution().isValid(test_input) == False
+
+    def test_case6(self) -> None:
+        test_input = ")("
+        print(f"{test_input=}")
+        assert ch20.Solution().isValid(test_input) == False
 
 
 if __name__ == "__main__":

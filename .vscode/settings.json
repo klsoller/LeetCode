@@ -1,6 +1,6 @@
 {
-    "python.terminal.cwd": "${workspaceFolder}/src",    
-    "python.testing.pytestArgs": [
+    "python.terminal.cwd": "${workspaceFolder}",    
+    "python.testing.pytestArgs": [  
         "${workspaceFolder}/src/tests"
     ],
     "python.testing.unittestEnabled": false,
@@ -10,11 +10,14 @@
     "python.defaultInterpreterPath": "${workspaceFolder}/.LeetCode_venv/Scripts/python.exe",
     "python.autoComplete.extraPaths": [
         "${workspaceFolder}",
+        "${workspaceFolder}/src",
         "${workspaceFolder}/src/logs"
     ],
     "python.analysis.extraPaths": [
         "${workspaceFolder}",
-        "${workspaceFolder}/logs"
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/src/logs",
+        "${workspaceFolder}/src/scripts"
         ],
 
     "python.envFile": "${workspaceFolder}/.env",
