@@ -1,6 +1,7 @@
 # /LeetCode/config/setup.py
 import os
 import sys
+from setuptools import setup
 
 
 def add_root_to_path() -> None:
@@ -15,8 +16,9 @@ def set_pythonpath() -> None:
 
 
 if __name__ == "__main__":
-    set_pythonpath()
-    add_root_to_path()
-    from scripts import test  # Import your main script
+    setup()
+    # set_pythonpath()
+    # add_root_to_path()
+    # from scripts import test  # Import your main script
 
-    test.main()  # Execute your main script
+    # test.main()  # Execute your main script
